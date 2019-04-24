@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./img/test.png":
+/*!**********************!*\
+  !*** ./img/test.png ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"./images/test.png\";\n\n//# sourceURL=webpack:///./img/test.png?");
+
+/***/ }),
+
 /***/ "./src/css/style.scss":
 /*!****************************!*\
   !*** ./src/css/style.scss ***!
@@ -105,7 +116,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/style.scss */ \"./src/css/style.scss\");\n/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _hellowebpack__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./hellowebpack */ \"./src/js/hellowebpack.js\");\n/* harmony import */ var _hellowebpack__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_hellowebpack__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/style.scss */ \"./src/css/style.scss\");\n/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _hellowebpack__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./hellowebpack */ \"./src/js/hellowebpack.js\");\n/* harmony import */ var _hellowebpack__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_hellowebpack__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_test_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../img/test.png */ \"./img/test.png\");\n/* harmony import */ var _img_test_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_test_png__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
 
 /***/ }),
 
@@ -116,7 +127,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("let app = document.getElementById('app');\nlet text = document.createTextNode('hello webpack!');\napp.appendChild(text);\n\n\n//# sourceURL=webpack:///./src/js/hellowebpack.js?");
+eval("let app = document.getElementById('app');\nlet text = document.createTextNode('hello webpack!');\napp.appendChild(text);\nconst test = document.createElement('img');\ntest.src = testImage;\ndocument.body.appendChild(test);\n\n\n//# sourceURL=webpack:///./src/js/hellowebpack.js?");
 
 /***/ })
 
