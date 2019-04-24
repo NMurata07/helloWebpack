@@ -1,0 +1,11 @@
+{
+  "name": "helloWebpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "初コミット",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
